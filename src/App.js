@@ -1,10 +1,12 @@
 import "./App.css";
 import Main from "./Containers/Main";
+import RoutingPaths from "./routes";
+
 function App() {
   return (
-    <div className="App">
-      <Main />
-    </div>
+    <>
+      <RoutingPaths />
+    </>
   );
 }
 

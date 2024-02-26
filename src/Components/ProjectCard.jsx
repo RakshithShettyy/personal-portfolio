@@ -14,7 +14,7 @@ const ProjectCard = ({
     <div className="col d-flex justify-content-center m-3">
       <div
         className="card bg-dark text-white"
-        style={{ width: "18rem", height: "25rem" }}>
+        style={{ width: "18rem", height: "28rem" }}>
         <img src={imgSrc} className="card-img-top" alt={title} />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>

@@ -8,6 +8,7 @@
 body {
   background: var(--dark-mode, #191919);
   color: var(--light-content, #a7a7a7);
+  overflow-x: hidden;
 }
 
 nav {

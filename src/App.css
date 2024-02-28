@@ -108,9 +108,6 @@ nav {
     flex-direction: column-reverse;
   }
   nav {
-    /* margin: 0;
-    padding: 20px;
-    align-items: center; */
     display: none !important;
   }
   .home-main-container {
@@ -133,4 +130,16 @@ nav {
 }
 
 @media screen and (max-width: 767px) {
+  .mobile-menu-logo {
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  .header-sticky {
+    color: black;
+  }
+  .card {
+    height: 50vh;
+  }
 }
+
+/* portfolio style end  */

@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import ProjectsSection from "../Components/ProjectsSection";
 import MobileMenu from "../Components/MobileMenu";
 import HomeContent from "./HomeContent";
 

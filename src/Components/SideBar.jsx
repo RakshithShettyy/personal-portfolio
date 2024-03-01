@@ -28,22 +28,22 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/#about" onClick={handleScroll}>
+                  <Link to="/about" onClick={handleScroll}>
                     ABOUT
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link o="/#tech-stacks" onClick={handleScroll}>
                     Tech Stack
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="/#project" onClick={handleScroll}>
                     Projects
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link to="/" onClick={handleScroll}>
+                  <Link to="/contact" onClick={handleScroll}>
                     Contact
                   </Link>
                 </li>

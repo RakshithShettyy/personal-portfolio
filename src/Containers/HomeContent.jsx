@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectsSection from "../Components/ProjectsSection";
-import Contact from "./Contact";
+import Footer from "../Components/Footer";
 
 const HomeContent = () => {
   return (
@@ -276,8 +276,8 @@ const HomeContent = () => {
       <div id="project">
         <ProjectsSection />
       </div>
-      <div id="Contact">
-        <Contact />
+      <div id="project">
+        <Footer />
       </div>
     </>
   );

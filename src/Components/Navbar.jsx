@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 {" "}
-                <a href="#tech-stacks" className="nav-link">
+                <a href="/home" className="nav-link">
                   Tech Stack
                 </a>
               </li>

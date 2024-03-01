@@ -99,6 +99,40 @@ nav {
   text-decoration: none;
   padding: 5px;
 }
+.about-container {
+  width: 80%;
+  height: 80vh;
+  margin-top: 5%;
+  padding-left: 45px;
+}
+.intro {
+  margin-bottom: 30px;
+}
+.titile-about {
+  color: white;
+}
+
+.title-about {
+  width: 60%;
+  text-align: justify;
+}
+
+.heading {
+  color: white;
+  margin-bottom: 30px;
+}
+.list-group {
+  width: 60%;
+}
+
+.work-experience {
+  margin-bottom: 30px;
+}
+.card-title {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* media queries  */
 
@@ -130,15 +164,26 @@ nav {
 }
 
 @media screen and (max-width: 767px) {
-  .mobile-menu-logo {
-    padding-left: 30px;
-    padding-top: 25px;
-  }
   .header-sticky {
     color: black;
   }
   .card {
     height: 50vh;
+  }
+  .about-container {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .title-about {
+    width: 90%;
+    text-align: left;
+  }
+  .list-group {
+    width: 100%;
+  }
+
+  .card-title {
+    width: 50%;
   }
 }
 

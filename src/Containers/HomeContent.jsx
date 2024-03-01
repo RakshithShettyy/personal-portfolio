@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectsSection from "../Components/ProjectsSection";
+import Contact from "./Contact";
 
 const HomeContent = () => {
   return (
@@ -19,6 +20,7 @@ const HomeContent = () => {
           </div>
         </div>
       </div>
+
       <div className="tech-stacks-div" id="tech-stacks">
         <h1 className="text-center">My Tech Stacks</h1>
         <p className="text-center">
@@ -273,6 +275,9 @@ const HomeContent = () => {
       </div>
       <div id="project">
         <ProjectsSection />
+      </div>
+      <div id="Contact">
+        <Contact />
       </div>
     </>
   );

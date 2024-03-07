@@ -8,7 +8,7 @@ const Navbar = () => {
       {window.innerWidth >= 992 ? (
         <nav>
           <div className="logo">
-            <h2>Rakshith</h2>
+            <img src="/rakshith-logo.png" className="rakshith-logo" alt="" />
           </div>
           <div className="nav-links d-flex">
             <ul className="navbar-nav ">

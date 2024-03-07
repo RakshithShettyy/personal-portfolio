@@ -1,22 +1,29 @@
 import React from "react";
 import ProjectsSection from "../Components/ProjectsSection";
 import Footer from "../Components/Footer";
+import ResumeDownloadButton from "../Components/ResumeDownloadButton";
 
 const HomeContent = () => {
   return (
     <>
       <div className="home-main-container">
-        <div className="home-main d-flex justify-content-around">
-          <div className="typo">
-            <p>Hi 👋,</p>
-            <p>
-              My Name is <br />
-              <span className="rakshith">Rakshith</span>{" "}
-            </p>
-            <p>I build things for web</p>
+        <div>
+          <div className="home-main d-flex justify-content-around">
+            <div className="typo">
+              <p>Hi 👋,</p>
+              <p>
+                My Name is <br />
+                <span className="rakshith">Rakshith</span>{" "}
+              </p>
+              <p>I build things for web</p>
+            </div>
+            <div className="home-image">
+              <img src="/images/rakshith.jpg" alt="" />
+            </div>
           </div>
-          <div className="home-image">
-            <img src="/images/rakshith.jpg" alt="" />
+
+          <div className="download-cv">
+            <ResumeDownloadButton />
           </div>
         </div>
       </div>

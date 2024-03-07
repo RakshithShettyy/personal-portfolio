@@ -166,6 +166,27 @@ nav {
   margin: 100px 0px;
 }
 
+.download-btn-container {
+  text-align: center;
+  margin: 25px 0px;
+}
+.download-btn {
+  padding: 15px;
+  border: 3px solid rgba(243, 243, 243, 0.801);
+  border-radius: 15px;
+}
+.download-btn:hover {
+  background: var(
+    --gradient-heading,
+    linear-gradient(90deg, #13b1f5c5 2.6%, #e70faac9 100%)
+  );
+  color: white;
+}
+.rakshith-logo {
+  width: 110px;
+  height: 110px;
+}
+
 /* media queries  */
 
 @media screen and (max-width: 480px) {
@@ -239,6 +260,34 @@ nav {
   }
   .link-icon {
     padding-right: 30px;
+  }
+  .download-btn-container {
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .home-main-container {
+    height: 100vh;
+  }
+  .typo > p {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin: 0;
+  }
+  .rakshith {
+    font-size: 50px;
+  }
+  .home-main-container {
+    text-align: center;
+  }
+  .tech-stacks-div {
+    height: 100vh;
+    padding: 20px 0px;
+  }
+  .download-btn {
+    font-size: 18px;
+    color: white;
   }
 }
 

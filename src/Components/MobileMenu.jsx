@@ -10,16 +10,18 @@ const MobileMenu = ({ bg, transparent = true }) => {
     <React.Fragment>
       <div
         id="header-sticky-mobile"
-        className={`tp-md-menu ${
-          transparent ? "header-transparent" : ""
-        } pt-15 pb-15 
+        className={`tp-md-menu ${transparent ? "header-transparent" : ""} pt-15 
     ${bg ? bg : ""} ${headerSticky ? "header-sticky" : ""}`}>
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-6">
               <div className="tp-logo">
                 <Link to="/">
-                  <h2 className="mobile-menu-logo">Rakshith</h2>
+                  <img
+                    src="/rakshith-logo.png"
+                    className="rakshith-logo-mobile"
+                    alt=""
+                  />
                 </Link>
               </div>
             </div>

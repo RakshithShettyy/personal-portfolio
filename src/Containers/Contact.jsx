@@ -20,7 +20,7 @@ const Contact = () => {
           <ul>
             <li className="link">
               <a
-                href="https://github.com/yourgithubusername"
+                href="https://github.com/RakshithShettyy"
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="link-icon">
@@ -31,7 +31,7 @@ const Contact = () => {
             </li>
             <li className="link">
               <a
-                href="https://github.com/yourgithubusername"
+                href="tel:+919535675192"
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="link-icon">
@@ -42,7 +42,7 @@ const Contact = () => {
             </li>
             <li className="link">
               <a
-                href="https://www.linkedin.com/in/yourlinkedinprofile"
+                href="https://www.linkedin.com/in/rakshith-shetty-pingme/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <span className="link-icon">

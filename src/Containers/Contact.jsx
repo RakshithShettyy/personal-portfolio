@@ -8,7 +8,7 @@ const Contact = () => {
       <Navbar />
       <div className="contact-container">
         <div className="contact-main">
-          <div className="heading typo contact-heading">
+          <div className="contact-heading">
             <p>For any questions, please mail me at</p>
             <a href="mailto:rakshithshetty227@gmail.com">
               <h2>rakshithshetty227@gmail.com</h2>

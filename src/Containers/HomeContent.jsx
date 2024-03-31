@@ -2,6 +2,7 @@ import React from "react";
 import ProjectsSection from "../Components/ProjectsSection";
 import Footer from "../Components/Footer";
 import ResumeDownloadButton from "../Components/ResumeDownloadButton";
+import { TypeAnimation } from "react-type-animation";
 
 const HomeContent = () => {
   return (
@@ -10,21 +11,44 @@ const HomeContent = () => {
         <div>
           <div className="home-main d-flex justify-content-around">
             <div className="typo">
-              <p>Hi 👋,</p>
+              {/* <p>Hi 👋,</p>
               <p>
                 My Name is <br />
                 <span className="rakshith">Rakshith</span>{" "}
               </p>
-              <p>I build things for web</p>
+              <p>I build things for web</p> */}
+              <TypeAnimation
+                sequence={[
+                  // Same substring at the start will only be typed out once, initially
+                  "Hi 👋,",
+                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  "My Name is Rakshith.",
+                  1000,
+                  "I build things for web !",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                // style={{ fontSize: "2em", display: "inline-block" }}
+                repeat={Infinity}
+              />
             </div>
-            <div className="home-image">
-              <img src="/images/rakshith.jpg" alt="" />
+            <div>
+              <div className="home-image">
+                <img src="/images/rakshith.jpg" alt="" />
+              </div>
+              {window.innerWidth >= 992 && (
+                <div className="download-cv">
+                  <ResumeDownloadButton />
+                </div>
+              )}
             </div>
           </div>
-
-          <div className="download-cv">
-            <ResumeDownloadButton />
-          </div>
+          {window.innerWidth <= 992 && (
+            <div className="download-cv">
+              <ResumeDownloadButton />
+            </div>
+          )}
         </div>
       </div>
 
@@ -33,7 +57,7 @@ const HomeContent = () => {
         <p className="text-center">
           Technologies I’ve been working with recently
         </p>
-        <div className="stacks p-1 my-4">
+        <div className="stacks">
           <div className="row text-center mb-4">
             <div className="col">
               <svg

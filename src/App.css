@@ -40,6 +40,22 @@ nav {
 .nav-link {
   padding: 10px 20px;
 }
+.typo {
+  text-align: center;
+  position: relative;
+  width: 45%;
+  height: 300px;
+}
+.typo > span {
+  color: #d9d9d9;
+  font-size: 3.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  position: absolute;
+  top: 28%;
+  left: 0%;
+}
 
 .typo > p {
   color: #d9d9d9;
@@ -147,6 +163,16 @@ nav {
   text-align: center;
   margin-top: 60px;
 }
+.contact-container .contact-main .contact-heading > p {
+  font-size: 30px;
+  text-align: justify;
+  color: #d9d9d9;
+}
+.contact-container .contact-main .contact-heading > a > h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #d9d9d9;
+}
 .social-links {
   margin-top: 30px;
 }
@@ -174,6 +200,17 @@ nav {
   padding: 15px;
   border: 3px solid rgba(243, 243, 243, 0.801);
   border-radius: 15px;
+}
+
+.tech-stacks-div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stacks {
+  margin: 50px 0px;
 }
 .download-btn:hover {
   background: var(
@@ -211,6 +248,23 @@ nav {
   .stacks {
     padding: 10%;
   }
+  .typo {
+    text-align: right;
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+  .typo > span {
+    color: #d9d9d9;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 70px; */
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
   .typo > p {
     font-size: 3rem;
   }
@@ -239,12 +293,14 @@ nav {
     width: 50%;
   }
   .contact-container .contact-main .contact-heading > p {
-    font-size: 20px;
+    font-size: 23px;
     text-align: justify;
+    color: #d9d9d9;
   }
   .contact-container .contact-main .contact-heading > a > h2 {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
+    color: #d9d9d9;
   }
   .social-links > ul {
     display: flex;

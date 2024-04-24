@@ -301,11 +301,14 @@ nav {
     color: black;
   }
   .card {
-    height: 50vh;
+    /* height: 50vh; */
   }
   .about-container {
     width: 100%;
     padding-left: 10px;
+  }
+  .project__cardContainerWrap > div {
+    width: 17rem !important;
   }
   .title-about {
     width: 90%;

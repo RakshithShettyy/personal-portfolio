@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCard";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce website",
+      title: "E-Commerce Website",
       description:
-        "This website was actually built when I just started learning web development",
-      stacks: "HTML5,CSS,Javascript",
+        "A E-Commerce webstore being built with the modern web practices",
+      stacks: "ReactJs, ShadCn, Firebase ",
       imgSrc:
         "https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/464540/image-1607124158272-2dd468f3c644e95fd13b7f4d7405a424.png",
       liveLink: "#",
@@ -45,7 +45,7 @@ const ProjectsSection = () => {
       commingSoon: false,
     },
     {
-      title: "Landing page",
+      title: "Landing Page",
       description: "A Dark themed webpage with about us and contact section",
       stacks: "HTML5,CSS,Javascript",
       imgSrc: "/images/landing-page.png",
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
       commingSoon: false,
     },
     {
-      title: "Personal website",
+      title: "Personal Website",
       description:
         "This website was actually built when I just started learning web development",
       stacks: "HTML5,CSS,Javascript",

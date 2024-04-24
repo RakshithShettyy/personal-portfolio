@@ -102,10 +102,36 @@ nav {
   height: 349px;
   object-fit: cover;
 }
+
+.project__cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.project__cardContainerWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.commingSoon {
+  filter: blur(3px);
+}
+.commingSoon__title {
+  color: rgb(216, 73, 73);
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
 .card {
   will-change: transform, box-shadow;
   cursor: pointer;
   transition: 80ms ease-in;
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: auto;
+  height: 20vh;
 }
 .card:hover {
   transform: translateY(-10px);

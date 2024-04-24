@@ -9,15 +9,20 @@ const ProjectCard = ({
   imgSrc,
   liveLink,
   codeLink,
+  commingSoon,
 }) => {
   return (
-    <div className="col d-flex justify-content-center m-3">
-      <div
-        className="card bg-dark text-white"
-        style={{ width: "18rem", height: "28rem" }}>
-        <img src={imgSrc} className="card-img-top" alt={title} />
+    <div className="project__cardContainerWrap">
+      <div className="card bg-dark text-white" style={{ width: "18rem" }}>
+        <img
+          src={imgSrc}
+          className={`card-img-top ${commingSoon ? "commingSoon" : ""}`}
+          alt={title}
+        />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
+          {commingSoon && <p className="commingSoon__title">Comming Soon</p>}
+
           <p className="card-text">{description}</p>
           <p className="fw-light">Tech Stacks : {stacks}</p>
         </div>

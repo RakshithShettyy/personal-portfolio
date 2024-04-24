@@ -4,6 +4,17 @@ import ProjectCard from "./ProjectCard";
 const ProjectsSection = () => {
   const projects = [
     {
+      title: "E-Commerce website",
+      description:
+        "This website was actually built when I just started learning web development",
+      stacks: "HTML5,CSS,Javascript",
+      imgSrc:
+        "https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/464540/image-1607124158272-2dd468f3c644e95fd13b7f4d7405a424.png",
+      liveLink: "#",
+      codeLink: "#",
+      commingSoon: true,
+    },
+    {
       title: "Netflix Clone",
       description:
         "This website was built when i was exploring firebase and to consume api using ReactJs",
@@ -11,6 +22,7 @@ const ProjectsSection = () => {
       imgSrc: "/images/netflix-2-home.png",
       liveLink: "https://rakshith-netflixclone.netlify.app",
       codeLink: "https://github.com/RakshithShettyy/Netflix-clone",
+      commingSoon: false,
     },
     {
       title: "HRMS",
@@ -20,6 +32,7 @@ const ProjectsSection = () => {
       imgSrc: "/images/hrms-home.jpeg",
       liveLink: "#",
       codeLink: "#",
+      commingSoon: false,
     },
     {
       title: "Pixel Images",
@@ -29,6 +42,7 @@ const ProjectsSection = () => {
       imgSrc: "/images/pixel.jpg",
       liveLink: "/",
       codeLink: "/",
+      commingSoon: false,
     },
     {
       title: "Landing page",
@@ -37,6 +51,7 @@ const ProjectsSection = () => {
       imgSrc: "/images/landing-page.png",
       liveLink: "/",
       codeLink: "/",
+      commingSoon: false,
     },
     {
       title: "Personal website",
@@ -47,16 +62,17 @@ const ProjectsSection = () => {
       liveLink: "https://frolicking-creponne-9ed317.netlify.app",
       codeLink:
         "https://github.com/RakshithShettyy/RakshithShetty-personal-site",
+      commingSoon: false,
     },
   ];
 
   return (
     <div className="projects-section">
-      <div className="text text-center">
+      <div className="text text-center mb-5">
         <h1>Projects</h1>
         <p>Things I've built so far</p>
       </div>
-      <div className="row">
+      <div className="project__cardContainer">
         {projects.map((project) => (
           <div className="col-12 col-sm-4">
             <ProjectCard
@@ -67,6 +83,7 @@ const ProjectsSection = () => {
               imgSrc={project.imgSrc}
               liveLink={project.liveLink}
               codeLink={project.codeLink}
+              commingSoon={project.commingSoon}
             />
           </div>
         ))}

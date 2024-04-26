@@ -28,9 +28,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" onClick={handleScroll}>
+                  <a href="#about" onClick={handleScroll}>
                     ABOUT
-                  </Link>
+                  </a>
                 </li>
                 {/* <li>
                   <Link o="/#tech-stacks" onClick={handleScroll}>

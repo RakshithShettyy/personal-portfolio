@@ -4,18 +4,25 @@
   font-weight: bold;
   font-style: normal;
 }
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--dark-mode, #191919);
   color: var(--light-content, #a7a7a7);
-  overflow-x: hidden;
+}
+
+.section {
+  height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 200px;
+  margin: 30px 150px;
 }
 
 .nav-links > ul {
@@ -39,6 +46,9 @@ nav {
 }
 .nav-link {
   padding: 10px 20px;
+}
+.nav-link:hover {
+  color: aliceblue;
 }
 .typo {
   text-align: center;
@@ -72,6 +82,10 @@ nav {
 .home-main-container {
   margin-top: 20vh;
   height: 70vh;
+}
+.home-main {
+  max-width: 1380px;
+  margin: auto;
 }
 
 .rakshith {
@@ -147,6 +161,15 @@ nav {
   margin-top: 5%;
   padding-left: 45px;
 }
+.about__SectionMain {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.about__Wrapper {
+}
 .intro {
   margin-bottom: 30px;
 }
@@ -155,7 +178,7 @@ nav {
 }
 
 .title-about {
-  width: 60%;
+  width: 70%;
   text-align: justify;
 }
 
@@ -164,7 +187,7 @@ nav {
   margin-bottom: 30px;
 }
 .list-group {
-  width: 60%;
+  width: 70%;
 }
 
 .work-experience {
@@ -373,6 +396,22 @@ nav {
   .download-btn {
     font-size: 18px;
     color: white;
+  }
+  .about__SectionMain {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    padding-top: 10%;
+  }
+  .title-about {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .education__Text {
+    text-align: left;
+    margin-bottom: 0px;
   }
 }
 
